@@ -1,84 +1,97 @@
-<!--The CSS style is infuenced on W3schools.com-->
-<!DOCTYPE html>
-<html lang="en">
+<!-- This is a prototype of a webpage for Rafaela Fereira -->
+<!-- Using HTML5 BoilerTemplate -->
+<!-- Hugo Leal, 2020 -->
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-  </style>
+    <meta charset="utf-8">
+    <title>Hugo Leal</title>
+
+    <link rel="icon" href="icon.png">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Hugo Leal">
+    <meta property="og:type" content="CV">
+    <meta property="og:url" content="hugolardosa.github.io">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font containing social media buttons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Web site fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+
+    <meta name="theme-color" content="#fafafa">
 </head>
+
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Hugo Leal</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li ><a href="cv.html">CV</a></li>
-        <li><a href="project.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-    <div class="col-sm-8 text-left"> 
-      <h1>Welcome</h1>
-      <p>Hi, this is my personal web page, feel free to lock around :)</p>
-      <hr>
-      <h3>Development</h3>
-      <p>This webpage is still in development...it's a summer project</p>
-    </div>
-  </div>
-</div>
+    <style>
+        a,
+        a:link,
+        a:visited {
+            background-color: black;
+            color: white;
+            padding: 5px 7px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover,
+        a:active {
+            background-color: #222222;
+        }
+    </style>
 
-<footer class="container-fluid text-center">
-  <p>Hugo Leal™ - 2020 </p>
-</footer>
+    <!--<p class="country"><a href="" style="font-family: 'Quicksand', sans-serif; background-color: darkblue">EN</a></p>-->
+    <!-- Add your site or application content here -->
+    <div class="title" style="font-family: 'Quicksand', sans-serif">
+        <img src="tile.png" alt="" style="width: 10%;"></img>
+        <h1 style="font-family: 'Rowdies', cursive">Hugo Leal </h1>
 
+        <p>
+            <a href="CV_en_hmll.pdf" target="_blank">CV</a>
+            <a id="myBtn">My Calendar</a>
+        </p>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Still in the works :)</p>
+        </div>
+
+    </div>
+
+    <footer class="web_footer ">
+        <a href="https://www.github.com/hugolardosa " target="_blank " class="fa fa-github"></a>
+        <!--<a href="# " class="fa fa-linkedin "></a>-->
+    </footer>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js "></script>
+    <script src="js/plugins.js "></script>
+    <script src="js/main.js "></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!--<script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js " async></script>
+  -->
 </body>
+
 </html>
