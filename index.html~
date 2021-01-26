@@ -36,12 +36,6 @@
 <body>
 
     <style>
-        body {
-          background-image: url('https://source.unsplash.com/featured/?aurora');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-        }
         a,
         a:link,
         a:visited {
@@ -61,9 +55,9 @@
 
     <!--<p class="country"><a href="" style="font-family: 'Quicksand', sans-serif; background-color: darkblue">EN</a></p>-->
     <!-- Add your site or application content here -->
-    <div class="title" style="font-family: 'Quicksand', sans-serif;">
+    <div class="title" style="font-family: 'Quicksand', sans-serif">
         <img src="tile.png" alt="" style="width: 10%;"></img>
-        <h1 style="font-family: 'Rowdies', cursive;  background-color:white; display: table; margin: 0px auto 0px auto; padding:5px;display: table;">Hugo Leal </h1>
+        <h1 style="font-family: 'Rowdies', cursive">Hugo Leal </h1>
 
         <p>
             <a href="./cv" target="_blank">CV</a>
@@ -84,6 +78,7 @@
 
     <footer class="web_footer ">
         <a href="https://www.github.com/hugolardosa " target="_blank " class="fa fa-github"></a>
+        <!--<a href="# " class="fa fa-linkedin "></a>-->
     </footer>
 
     <script src="assets/js/vendor/modernizr-3.11.2.min.js "></script>
