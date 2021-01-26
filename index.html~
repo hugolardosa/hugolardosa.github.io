@@ -1,0 +1,102 @@
+<!-- This is a prototype of a webpage for Rafaela Fereira -->
+<!-- Using HTML5 BoilerTemplate -->
+<!-- Hugo Leal, 2020 -->
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hugo Leal</title>
+
+    <link rel="icon" href="icon.png">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Hugo Leal">
+    <meta property="og:type" content="CV">
+    <meta property="og:url" content="hugolardosa.github.io">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Font containing social media buttons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Web site fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+    <style>
+        a,
+        a:link,
+        a:visited {
+            background-color: black;
+            color: white;
+            padding: 5px 7px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover,
+        a:active {
+            background-color: #222222;
+        }
+    </style>
+
+    <!--<p class="country"><a href="" style="font-family: 'Quicksand', sans-serif; background-color: darkblue">EN</a></p>-->
+    <!-- Add your site or application content here -->
+    <div class="title" style="font-family: 'Quicksand', sans-serif">
+        <img src="tile.png" alt="" style="width: 10%;"></img>
+        <h1 style="font-family: 'Rowdies', cursive">Hugo Leal </h1>
+
+        <p>
+<<<<<<< HEAD
+            <a href="./cv" target="_blank">CV</a>
+           <a id="myBtn">My Projects</a>
+=======
+            <a href="/cv" target="_blank">CV</a>
+            <a id="myBtn">My Calendar</a>
+>>>>>>> 196b4caf2c266037c66f558b3fb7ec6f893d17f7
+        </p>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Still in the works :)</p>
+        </div>
+
+    </div>
+
+    <footer class="web_footer ">
+        <a href="https://www.github.com/hugolardosa " target="_blank " class="fa fa-github"></a>
+        <!--<a href="# " class="fa fa-linkedin "></a>-->
+    </footer>
+
+    <script src="assets/js/vendor/modernizr-3.11.2.min.js "></script>
+    <script src="assets/js/plugins.js "></script>
+    <script src="assets/js/main.js "></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!--<script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js " async></script>
+  -->
+</body>
+
+</html>
