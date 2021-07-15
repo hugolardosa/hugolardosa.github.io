@@ -66,33 +66,18 @@
         </div>
         <div class="card-body">
             <p class="card-text">
-                I'm renewing my website with something old. In the meantime, here is a button to download my cv</p>
+                I'm renewing my website with something old. In the meantime, here is a button to download my cv and to my github page</p>
                 <div class="d-flex mt-3">    
                 <a href="documents/HugoLeal_CV.pdf" target="_blank" class="btn btn-sm mr-2 btn-primary border-dark"
                     role="button"><span class="btn-text">Download CV</span></a>
-                    </div>
-            </div>
-        </div>
-    </div>
-</div>
-    
-    <div id="git_card" style="position:absolute;">
-    <div class="card card-tertiary">
-        <div class="card-header" style="cursor: move;">
-            <span>My Github page</span>
-        </div>
-        <div class="card-body">
-            <p class="card-text">
-                Feel free to check out my projects on my github page</p>
-                <div class="d-flex mt-3">    
-                <a href="https://github.com/hugolardosa/" target="_blank" class="btn btn-sm mr-2 btn-primary border-dark"
+                    <a href="https://github.com/hugolardosa/" target="_blank" class="btn btn-sm mr-2 btn-primary border-dark"
                     role="button"><span class="btn-text"> Go to the GitHub</span></a>
                     </div>
             </div>
         </div>
     </div>
 </div>
-                  
+                    
 
     <!-- Core -->
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
@@ -104,7 +89,6 @@
     <script >
         // Make the DIV element draggable:
         dragElement(document.getElementById("com_card"));
-        dragElement2(document.getElementById("git_card"));
         function dragElement(elmnt) {
         var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
         if (document.getElementById(elmnt.id + "header")) {
@@ -115,16 +99,6 @@
             elmnt.onmousedown = dragMouseDown;
         }
     
-        function dragElement2(elmnt) {
-        var pos1 = 10, pos2 = 10, pos3 = 10, pos4 = 10;
-        if (document.getElementById(elmnt.id + "header")) {
-            // if present, the header is where you move the DIV from:
-            document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-        } else {
-            // otherwise, move the DIV from anywhere inside the DIV:
-            elmnt.onmousedown = dragMouseDown;
-        }
-            
             
         function dragMouseDown(e) {
             e = e || window.event;
