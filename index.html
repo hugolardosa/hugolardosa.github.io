@@ -75,6 +75,23 @@
         </div>
     </div>
 </div>
+    
+    <div id="git_card" style="position:absolute;">
+    <div class="card card-tertiary">
+        <div class="card-header" style="cursor: move;">
+            <span>My Github page</span>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                Feel free to check out my projects on my github page</p>
+                <div class="d-flex mt-3">    
+                <a href="https://github.com/hugolardosa/" target="_blank" class="btn btn-sm mr-2 btn-primary border-dark"
+                    role="button"><span class="btn-text"> Go to the GitHub</span></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
                   
 
     <!-- Core -->
@@ -87,7 +104,7 @@
     <script >
         // Make the DIV element draggable:
         dragElement(document.getElementById("com_card"));
-
+        dragElement(document.getElementById("git_card"));
         function dragElement(elmnt) {
         var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
         if (document.getElementById(elmnt.id + "header")) {
