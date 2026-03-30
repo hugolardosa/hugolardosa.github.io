@@ -4,4 +4,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://howduudu.tech/sitemap-index.xml
+Sitemap: https://hugolardosa.github.io/sitemap-index.xml
